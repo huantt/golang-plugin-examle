@@ -55,7 +55,7 @@ In this example, we are exporting both the `Speaker` type and the `SpeakerName` 
 
 ## How to open plugin
 ```go
-plugin, err := plugin.Open(mod)
+plugin, err := plugin.Open("path/to/plugin.so")
 if err != nil {
     return err
 }
